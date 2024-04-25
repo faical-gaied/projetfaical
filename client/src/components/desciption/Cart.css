@@ -1,0 +1,21 @@
+.table1{
+    border: solid 1px rgba(27, 15, 197, 0.233);
+}
+.table1 th{
+    border: solid 1px rgba(27, 15, 197, 0.233);
+}
+.table1 td{
+    border: solid 1px rgba(27, 15, 197, 0.233);
+}
+.table2{
+    border: solid 1px rgba(27, 15, 197, 0.233);
+}
+.table2 th{
+    border: solid 1px rgba(27, 15, 197, 0.233);
+}
+.table2 td{
+    border: solid 1px rgba(27, 15, 197, 0.233);
+}
+.tableglob{
+    display: flex;
+}

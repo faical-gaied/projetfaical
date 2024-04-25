@@ -1,0 +1,33 @@
+.new-collections{
+    display: flex;
+    
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 200px;
+    
+}
+.gappe{
+    margin-top: 350px;
+}
+.tiret{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new-collections h1{
+    color: rgb(194, 70, 70);
+    font-size: 50px;
+    font-weight: 600;
+}
+.new-collections hr{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.new-collections-item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-bottom: 250px;
+}

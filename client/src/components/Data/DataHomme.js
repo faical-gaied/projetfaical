@@ -1,0 +1,51 @@
+export let collection_homme=[
+    {
+        id:1,
+        name:"blouson fw",
+        image:'https://hamedia.b-cdn.net/catalog/product/cache/1/small_image/440x/17f82f742ffe127f42dca9de82fb58b1/0/0/0031872-grey_4__1.jpg',
+        new_price:50.00,
+        old_price:80.00,
+    },
+    {
+        id:2,
+        name:"chemise vfd",
+        image:'https://hamedia.b-cdn.net/catalog/product/cache/1/small_image/440x/17f82f742ffe127f42dca9de82fb58b1/0/0/0032170_4__1.jpg',
+        new_price:50.00,
+        old_price:80.00,
+    },
+    {
+        id:3,
+        name:"chemise vfd",
+        image:'https://hamedia.b-cdn.net/catalog/product/cache/1/small_image/440x/17f82f742ffe127f42dca9de82fb58b1/0/0/0032171_2__1.jpg',
+        new_price:50.00,
+        old_price:80.00,
+    },
+    {
+        id:4,
+        name:"pull hg vfd",
+        image:'https://hamedia.b-cdn.net/catalog/product/cache/1/small_image/440x/17f82f742ffe127f42dca9de82fb58b1/0/0/0032173_1__1.jpg',
+        new_price:50.00,
+        old_price:80.00,
+    },
+    {
+        id:5,
+        name:"chemise vfd",
+        image:'https://hamedia.b-cdn.net/catalog/product/cache/1/small_image/440x/17f82f742ffe127f42dca9de82fb58b1/0/0/0032933-white_3_.jpg',
+        new_price:50.00,
+        old_price:80.00,
+    },
+    {
+        id:6,
+        name:"chemise vfd",
+        image:'https://hamedia.b-cdn.net/catalog/product/cache/1/small_image/440x/17f82f742ffe127f42dca9de82fb58b1/0/0/0028980_7__1.jpg',
+        new_price:50.00,
+        old_price:80.00,
+    },
+    {
+        id:7,
+        name:"chemise vfd",
+        image:'https://hamedia.b-cdn.net/catalog/product/cache/1/small_image/440x/17f82f742ffe127f42dca9de82fb58b1/0/0/0028980_7__1.jpg',
+        new_price:50.00,
+        old_price:80.00,
+    },
+]

@@ -1,0 +1,82 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    display: flex;
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+
+}
+.hero-left h2{
+   font-size: 20px;
+
+}
+.hero-left1 p{
+    color: aqua;
+}
+.hero-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+.hero-left string{
+    color: #20af9c;
+    
+
+}
+.hero-left p{
+   color: #171717; 
+   font-size: 100px;
+   font-weight: 700;
+}
+.hero-left1 p{
+    color: #30ca1c;
+}
+.hero-hand-icon{
+   display: flex;
+    align-content: center;
+    gap: 20px;
+}
+.hero-hand-icon p{
+    color: #ff4141;
+}
+.hero-hand-icon i{
+font-size: 100px;
+color: rgb(206, 206, 26);
+}
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 250px;
+    height: 70px;
+    border-radius:75px ;
+    margin: 30px 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.hero-right{
+   flex: 1; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.hero-latest-btn button{
+    border: none;
+    background: none;
+    color: #fde1ff;
+}
+.hero-right img{
+    width: 40%;
+    border-radius: 50%;
+}

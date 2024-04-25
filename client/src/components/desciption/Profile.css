@@ -1,0 +1,15 @@
+.profile-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 20%;
+  }
+  
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .profile-actions button {
+    margin-right: 10px;
+  }
+  

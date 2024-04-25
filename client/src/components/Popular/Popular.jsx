@@ -1,16 +1,18 @@
 import React from 'react'
 import './Popular.css'
-import { data_product } from '../Data/DataFemme'
+// import { data_product } from '../Data/DataFemme'
 import Item from '../Cart/Cart'
+import { useSelector } from 'react-redux'
 
 function Popular() {
+  const data_product=useSelector((store)=>store.produit?.product)
   return (
     <div className='popular'>
       <h1>Populaire Pour Femme</h1>
       <hr/>
       <div className="popular-item">
-        {data_product.map((item)=>{
-            return <Item  id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
+        {data_product?.map((item)=>{
+            return <Item  item={item}/>
         })}
       </div>
     </div>

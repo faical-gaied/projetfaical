@@ -75,6 +75,7 @@ function App() {
           <Route path="/profil" element={<Profil />} />
         </Route>{" "}
       </Routes>
+      <Footer/>
     </div>
   );
 }

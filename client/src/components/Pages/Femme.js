@@ -18,7 +18,7 @@ function Femme() {
       </div>
       <div className='flat-data'>
         {data_product?.map((item)=>{
-            return <Item id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
+            return <Item item={item}/>
         })}
       </div>
     </div>

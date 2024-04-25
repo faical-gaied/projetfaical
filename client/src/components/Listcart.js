@@ -8,8 +8,9 @@ const Listcart = () => {
     <div>
       {commandes?.map((el)=>(
         <>
-      <h1>{el.nomprduit}</h1>
-      <h3>{el.price} DT</h3>
+        <img src={el?.image} />
+      <h1>{el?.nomprduit}</h1>
+      <h3>{el?.price} DT</h3>
       </>
       ))}
     </div>
